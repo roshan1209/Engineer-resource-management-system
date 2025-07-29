@@ -1,6 +1,6 @@
 # ⚡ Engineering Resource Management System
 
-A complete full-stack application to manage engineers, projects, assignments, and team capacity with modern UI and AI-assisted development process.
+A full-stack application to manage engineers, projects, assignments, and team capacity with modern UI and AI-assisted development process.
 
 ---
 
@@ -69,7 +69,7 @@ npm install
 **Backend **``** Example**
 
 ```env
-PORT=8181
+PORT=5200
 MONGO_URI=mongodb://localhost:27017/resource_management
 JWT_SECRET_KEY=your_secret_key
 ```
@@ -77,7 +77,7 @@ JWT_SECRET_KEY=your_secret_key
 **Frontend **``** Example**
 
 ```env
-VITE_API_BASE_URL="http://localhost:8181/api/v1"
+VITE_API_BASE_URL="http://localhost:5200/api/v1"
 ```
 
 ```
@@ -90,7 +90,7 @@ Run the seeder to populate test data:
 
 ```bash
 cd backend
-node seed.js
+npm run seed
 ```
 
 Seeder Adds:
@@ -115,7 +115,7 @@ npm run dev
 ```
 
 Frontend URL: [http://localhost:5173](http://localhost:5173)\
-Backend API URL: [http://localhost:8181/api/v1](http://localhost:8181/api/v1)
+Backend API URL: [http://localhost:8181/api/v1](http://localhost:5200/api/v1)
 
 ---
 
