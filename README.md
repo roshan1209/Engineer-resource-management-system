@@ -115,7 +115,7 @@ npm run dev
 ```
 
 Frontend URL: [http://localhost:5173](http://localhost:5173)\
-Backend API URL: [http://localhost:8181/api/v1](http://localhost:5200/api/v1)
+Backend API URL: [http://localhost:5200/api/v1](http://localhost:5200/api/v1)
 
 ---
 
